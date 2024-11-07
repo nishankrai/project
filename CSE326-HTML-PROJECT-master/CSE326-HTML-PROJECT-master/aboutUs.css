@@ -1,0 +1,87 @@
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: linear-gradient(rgb(40, 25, 35) 0%, rgb(34, 21, 35) 100%);
+  color: #fff;
+  border: 0;
+  font-size: 1.4em;
+  padding: 0% 0%;
+}
+.navbar-brand {
+  float: left;
+  min-height: 40px;
+  padding-left: 50px;
+  padding-top: 0px;
+}
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:hover,
+.navbar-inverse .navbar-nav .active a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav li a {
+  /*while not hovering*/
+  color: #71909f;
+  padding-top: 5px;
+}
+.signin-btn {
+  background-color: transparent;
+  font-size: 20px;
+}
+.login-btn {
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 20px;
+  border-style: none;
+}
+.signin-btn:hover {
+  text-decoration: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
+  background-color: transparent;
+}
+.login-btn:hover {
+  text-decoration: none;
+  background-color: transparent;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
+}
+
+#box1 {
+  height: 100vh;
+  background-image: url("about1.jpg");
+  background-size: cover;
+  display: table;
+  vertical-align: middle;
+  background-attachment: fixed;
+}
+#box2 {
+  height: 100vh;
+  background-image: url("about2.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#box3 {
+  height: 100vh;
+  background-image: url("about3.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+.text-align {
+  transform: translateY(250px);
+  color: white;
+  font-family: "Bowlby One", cursive;
+}
+.textalign {
+  font-family: "Arvo", serif;
+  transform: translateY(300px);
+  color: #fff;
+  word-wrap: break-word;
+  font-size: x-large;
+}
+.logout-btn {
+  border-radius: 0px;
+  background-color: transparent;
+  font-size: 20px;
+  border-style: none;
+}
